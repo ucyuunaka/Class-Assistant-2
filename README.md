@@ -27,25 +27,21 @@
 - 设置重要考试日期
 - 自动计算剩余时间
 - 智能提醒功能
-- 帮助制定备考计划
 
 ### 4. 💬 课评速记
 
 - 快速记录课程感受
 - 使用表情和简短评价
 - 支持互动交流
-- 分享课堂体验
 
 ### 5. 👤 个人资料
 
 - 定制个人学习资料
-- 管理专业和课程信息
 - 个性化学习服务
 
 ### 6. ⚙️ 偏好设置
 
 - 多种界面主题选择
-- 语言偏好设置
 - 自定义使用体验
 
 ## 🛠️ 技术栈
@@ -54,7 +50,7 @@
 - **UI 图标**: Font Awesome 6.0 + Remix Icon
 - **架构设计**: 模块化组件设计
 - **响应式设计**: 完美支持桌面端和移动端
-- **数据存储**: 本地存储 + 云端同步
+- **数据存储**: 本地存储
 
 ## 📂 项目结构
 
@@ -101,22 +97,10 @@ Class-Assistant-2/
 
 2. **启动项目**
 
-   **方式一：使用批处理文件（Windows）**
+   **使用批处理文件（Windows）**
 
    ```bash
    双击运行 "启动本地服务器.bat"
-   ```
-
-   **方式二：使用 Python 服务器**
-
-   ```bash
-   python -m http.server 8000
-   ```
-
-   **方式三：使用 Node.js 服务器**
-
-   ```bash
-   npx http-server
    ```
 
 3. **访问应用**
@@ -140,32 +124,6 @@ Class-Assistant-2/
 - **数据云端同步**: 多设备无缝切换，数据永不丢失
 - **个性化定制**: 多种主题和设置选项，打造专属体验
 
-## 🤝 贡献指南
-
-欢迎对项目进行贡献！如果你有好的想法或发现了问题：
-
-1. Fork 本项目
-2. 创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启一个 Pull Request
-
-## 📄 开源协议
-
-本项目采用 MIT 协议 - 查看 [LICENSE](LICENSE) 文件了解详情
-
-## 📞 联系我们
-
-- 项目主页: [https://github.com/yourusername/Class-Assistant-2](https://github.com/yourusername/Class-Assistant-2)
-- 问题反馈: [Issues](https://github.com/yourusername/Class-Assistant-2/issues)
-- 邮箱: your-email@example.com
-
-## 🙏 致谢
-
-感谢所有为这个项目做出贡献的开发者和用户！
 
 ---
 
-⭐ 如果这个项目对你有帮助，请给我们一个 Star！
-
-💡 **让学习变得更简单，让生活变得更有序** - 课堂助手团队
